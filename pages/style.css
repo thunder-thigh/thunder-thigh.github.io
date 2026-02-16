@@ -1,0 +1,13 @@
+.corner-personal{
+    position: fixed;
+    bottom: -44px;
+    right: -44px;
+    width: 300px;
+    height: auto;
+    z-index: -1;
+    pointer-events: none;
+    /*mix-blend-mode:   color, color-burn, color-dodge, darken, difference, exclusion, 
+                        hard-light, hue, lighten, luminosity, multiply, normal, 
+                        overlay, saturation, screen, soft-light, inherit, initial, unset;*/
+    mix-blend-mode: luminosity;
+}
