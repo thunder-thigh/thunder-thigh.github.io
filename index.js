@@ -18,7 +18,7 @@ fetch(githubURL)
 	.then(data => {
 		console.log(data);
 		const updatedDate=new Date(data.updated_at).toLocaleDateString();
-		document.getElementById("lastPageUpdatedDate").innerHTML=updatedDate
+		document.getElementById("lastPageUpdatedDate").innerHTML="<b>Last Updated</b><br>"+updatedDate
 	})
 	.catch(error => {	
 		console.error('Error:', error);

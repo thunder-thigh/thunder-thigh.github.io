@@ -9,5 +9,6 @@
     /*mix-blend-mode:   color, color-burn, color-dodge, darken, difference, exclusion, 
                         hard-light, hue, lighten, luminosity, multiply, normal, 
                         overlay, saturation, screen, soft-light, inherit, initial, unset;*/
-    mix-blend-mode: luminosity;
+    mix-blend-mode: normal;
+    filter:saturate(0)
 }
